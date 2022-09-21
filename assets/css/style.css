@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fire Sans';
+
+}
+
+.weatherDay {
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+#grad {
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+
+
+
+.btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 18%;
+    display: block;
+    margin: 5px 0;
+    border-radius: 1rem;
+    /* color: primary; */
+    border: none;
+    outline: none;
+    /* background-color:; */
+    box-shadow: 3px 3px dark;
+    /* transform: translate(-1px, -1px); */
+}
+
+.form-input {
+    width: 18%;
+    padding: 0.5%;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+.searchBy {
+    width: 18%;
+    margin-left: 25px;
+    font-weight: bolder;
+    font-size: 50px;
+    /* border: 2px solid black; */
+    justify-content: left;
+
+}
