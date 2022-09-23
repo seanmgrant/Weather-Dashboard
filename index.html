@@ -28,19 +28,26 @@
         <h1 id="grad" class="p-5 text-center text-white bg-primary bg-gradient">Weather Dashboard</h1>
     </header>
     <main class="">
-        <section class="">
-            <header class="">
+        <section class="border">
+            <header class="container-sm">
                 <h2 class="searchBy">Search for a City:</h2>
-                <form id="user-form" class="card-body">
-                    <label class="form-label" for="username"></label>
-                    <input name="username" id="username" type="text" autofocus="true" class="form-input"/>
-                    <button type="button" class="btn btn-primary">Search</button>
+                <form id="user-form" class="md-2">
+                    <label class="form-label" for="city"></label>
+                    <input name="city" id="city" type="text" autofocus="true" class="form-input" placeholder="Search"/>
+                    <button type="button" class="btn btn-primary" id="fetch-button">Search</button>
                 </form>
             </header>
         </section>
+        <section class="weather-section" id="weatherBox">Placeholder content
+            <h3 class="currntCity">Denver weather</h3>
+            <div class="temp">Temp:</div>
+            <div class="wind">Wind:</div>
+            <div class="humidity">Humidity:</div>
+
+        </section>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script> -->
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
