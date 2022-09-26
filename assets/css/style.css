@@ -28,20 +28,20 @@ body {
     font-size: 1.3rem;
     text-decoration: none;
     padding: 6px 5px;
-    width: 18%;
+    width: 100%;
     display: block;
     margin: 5px 0;
     border-radius: 1rem;
-    /* color: primary; */
+  
     border: none;
     outline: none;
-    /* background-color:; */
+   
     box-shadow: 3px 3px dark;
-    /* transform: translate(-1px, -1px); */
+   
 }
 
 .form-input {
-    width: 18%;
+    width: 100%;
     padding: 0.5%;
     margin: 20px 0;
     font-size: 1.2rem;
@@ -49,11 +49,67 @@ body {
     border-radius: 1rem;
 }
 .searchBy {
-    width: 18%;
+    width: 100%;
     margin-left: 25px;
     font-weight: bolder;
     font-size: 50px;
-    /* border: 2px solid black; */
+ 
     justify-content: left;
 
+}
+
+:root{
+    --blue: rgb(5, 49, 246);
+    --plum: rgb(90, 61, 171);
+}
+
+#header{
+    height: 90px;
+    background-image: linear-gradient(to right,var(--blue),var(--plum) );
+  }
+
+.flex-container{
+  display:flex;
+}
+
+.flex-child{
+  flex:1;
+}
+
+  .btn {
+    font-size: 1.3rem;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 13px 0;
+    border-radius: .3rem;
+    color: white;
+    outline: none;
+    background-color: var(--blue);
+  }
+
+#city{
+    margin-top: 5px;
+    width: 100%;
+    height: fit-content;
+    size: larger;
+    border-radius: 4px;
+    border-color: rgb(209, 200, 200);
+}
+
+.forecast{
+  background-color: #1b2f3f;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  display: inline-flex;
+}
+
+#city-weather{
+  justify-content: right;
+}
+
+#search-history{
+  padding: 10px;
+  margin: 10px;
 }
